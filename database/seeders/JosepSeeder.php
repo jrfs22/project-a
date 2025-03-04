@@ -47,12 +47,6 @@ class JosepSeeder extends Seeder
             [
                 'name' => 'Josep'
             ],
-            [
-                'name' => 'Josep'
-            ],
-            [
-                'name' => 'Josep'
-            ],
         ]);
     }
 }
