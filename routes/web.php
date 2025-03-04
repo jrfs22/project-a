@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\JosepController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,9 +14,5 @@ Route::prefix('products')->group(function () {
 
 });
 
+Route::get('josep', [JosepController::class, 'index']);
 
-// /product/create : C
-// /product : R
-// /product/edit : U => tampilan
-// /product/update : U => proses
-// /product/delete : D
